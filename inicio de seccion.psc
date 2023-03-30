@@ -1,12 +1,27 @@
 Algoritmo Iniciar_seccion 
-	Escribir "Ingrese nombre de usuario:"
-	Leer User
-	Escribir "Ingrese contraseña:"
-	Leer password
-	Si User == "EAS2210" y password == "22102003" Entonces
-		Escribir "Inicio de seccion correcta"
+	intentos = 0
+	Mientras intentos < 3 Hacer
+		Escribir "Ingrese nombre de usuario:"
+		Leer User
+		Escribir " "
+		Escribir "Ingrese contraseña:"
+		Leer password
+		Si User == "EAS2210" y password == "22102003" Entonces
+			Escribir " "
+			Escribir "Inicio de seccion correcta"
+			intentos<-intentos + 5
+		SiNo
+			Escribir " "
+			Escribir "Usuario y contrasena incorrecta"
+			intentos<-intentos + 1
+		Fin Si
+		
+	Fin Mientras
+	Si intentos == 3 Entonces
+		Escribir " "
+		Escribir "Se le acabaron los intentos master"
 	SiNo
-		Escribir "Usuario y contrasena incorrecta"
+		Escribir " "
+		Escribir "continue"
 	Fin Si
-
 FinAlgoritmo
