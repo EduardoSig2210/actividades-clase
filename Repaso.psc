@@ -4,6 +4,7 @@ Algoritmo Calculadora
 	total= 0
 	Segun Seleccion Hacer
 		1:
+			Escribir "--------------------------------------"
 			Escribir "Usted ha escogido suma"
 			Escribir "Cuantos numeros piensa sumar"
 			Leer cant
@@ -20,6 +21,7 @@ Algoritmo Calculadora
 			Fin Mientras
 			Escribir "Su total es:" total
 		2:
+			Escribir "--------------------------------------"
 			Escribir "Usted ha escogido resta"
 			Escribir "Cuantos numeros piensa restar"
 			Leer cant
@@ -40,6 +42,7 @@ Algoritmo Calculadora
 			Fin Mientras
 			Escribir "Su total es:" total
 		3:
+			Escribir "--------------------------------------"
 			Escribir "Usted ha escogido multiplicacion"
 			Escribir "Cuantos numeros piensa multiplicar"
 			Leer cant
@@ -60,6 +63,7 @@ Algoritmo Calculadora
 			Fin Mientras
 			Escribir "Su total es:" total
 		4:
+			Escribir "--------------------------------------"
 			Escribir "Usted ha escogido division"
 			Escribir "Cuantos numeros piensa dividir"
 			Leer cant
@@ -80,6 +84,7 @@ Algoritmo Calculadora
 			Fin Mientras
 			Escribir "Su total es:" total
 		De Otro Modo:
+			Escribir "--------------------------------------"
 			Escribir "Esa opcion no esta disponible"
 	Fin Segun
 FinAlgoritmo
