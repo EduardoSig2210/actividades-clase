@@ -29,7 +29,7 @@ int main(){
         descuentof=0;
         Preciot2=Preciot1-descuentof;
     }
-    cout<<"Peso del paquete: "<< peso <<"lb\nCantidad de paquetes: "<< cant << "\nPrecio por paquete: $" << precio << "\nTotal: $" << Preciot1 << "\nDescuento: $" << descuentof << "\nTotal con descuento: $" << Preciot2; 
+    cout<<"Peso del paquete:"<< peso <<"lb\nCantidad de paquetes: "<< cant << "\nPrecio por paquete: $" << precio << "\nTotal: $" << Preciot1 << "\nDescuento: $" << descuentof << "\nTotal con descuento: $" << Preciot2; 
 }
 
 //funciones del programa
